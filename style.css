@@ -48,7 +48,7 @@ header {
   top: -10px;  
   left: 0;
   width: 100%;
-  height: 20px; /* shadow balandligi */
+  height: 20px;  
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
   pointer-events: none; /* hover va clickga ta'sir qilmasin */
 }
@@ -99,12 +99,11 @@ header {
 
     padding: 20px 10px;
       display: flex;
-    height: 23px;
+    height: 24px;
     align-items: center;
     justify-content: center;
 }
-
-/* ===== RESPONSIVE BREAKPOINTS ===== */
+ 
 
 /* Planshet (768px dan kichik) */
 @media (max-width: 768px) {
