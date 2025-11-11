@@ -41,11 +41,11 @@ header {
   overflow: hidden;
 }
 
-/* Gradient shadow uchun */
+ 
 .info::before {
   content: "";
   position: absolute;
-  top: -10px; /* yuqoridan chiqaradi */
+  top: -10px;  
   left: 0;
   width: 100%;
   height: 20px; /* shadow balandligi */
@@ -54,7 +54,7 @@ header {
 }
 
 
-/* USER INFO */
+ 
 .user-info {
     display: flex;
     align-items: center;
