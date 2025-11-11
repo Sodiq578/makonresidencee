@@ -475,6 +475,38 @@ header {
 
 
 
+/* Modal ichidagi button */
+.modal-content button {
+    width: 50%; /* button kengligi */
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #294A95, #4A79D1); /* gradient fon */
+    color: #fff; /* matn rangi oq */
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(41, 74, 149, 0.3);
+}
+
+/* Hover effekti */
+.modal-content button:hover {
+    background: linear-gradient(90deg, #4A79D1, #294A95); /* gradient o'zgaradi */
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(41, 74, 149, 0.5);
+}
+
+/* Active (bosilganda) effekti */
+.modal-content button:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(41, 74, 149, 0.2);
+}
+
+
+
+
 
 
 
