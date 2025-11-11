@@ -33,11 +33,34 @@ header {
     align-items: center;
 }
 
+.info {
+  position: relative; /* pseudo-element uchun kerak */
+  background-color: #071430;
+  padding: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Gradient shadow uchun */
+.info::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* yuqoridan chiqaradi */
+  left: 0;
+  width: 100%;
+  height: 20px; /* shadow balandligi */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
+  pointer-events: none; /* hover va clickga ta'sir qilmasin */
+}
+
+
 /* USER INFO */
 .user-info {
     display: flex;
     align-items: center;
     gap: 10px;
+
+
 }
 
 .user-info img {
@@ -167,6 +190,7 @@ header {
   color: #fff;
   overflow: hidden;
   margin-top: 30px;
+  height: 386px
 }
 
 /* ORQA FON RASMI (AFTER) */
