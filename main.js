@@ -39,7 +39,7 @@ makonForm.addEventListener('submit', async (e) => {
     window.location.href = TELEGRAM_CHANNEL;
 
   } catch (error) {
-    alert("Xatolik yuz berdi, qayta urinib ko‘ring !");
+    alert("Xatolik yuz berdi, qayta urinib ko‘ring!");
     console.error(error);
   }
 });
